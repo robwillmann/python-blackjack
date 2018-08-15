@@ -1,0 +1,15 @@
+Basic blackjack design flow:
+
+1. Initialization:
+	a. Class: Deck of Cards
+		1. Use dict generator to create a dict of: suit, name, value.
+		2. Method: shuffle - simple - just use choose from random class. (IE: random.choiice(remainder_of_deck))
+		1. Must keep track of cards already dealt.
+	b. Method\Function: Deal a card.
+ 2. Each Hand (except initial deal)
+ 	- Deal 1 card from remainder of deck.
+ 	- Check for dealer = 21
+ 	- Check for bust.
+
+ Rules to review:
+ https://www.bicyclecards.com/how-to-play/blackjack/
